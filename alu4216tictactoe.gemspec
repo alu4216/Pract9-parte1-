@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "alu4216tictactoe"
   s.version     = Alu4216tictactoe::VERSION
   s.authors     = ["josue"]
-  s.email       = ["josss9229@gmail.com"]
+  s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{Gema de tres en ralla}
   s.description = %q{Juego de tres en ralla}

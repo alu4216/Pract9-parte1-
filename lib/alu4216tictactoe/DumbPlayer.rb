@@ -7,5 +7,16 @@ module TicTacToe
       moves = board.moves
       moves[rand(moves.size)]
     end
-  end
+    def resul
+      print final_board
+      
+      if final_board.won? == @mark
+        return 1
+      elsif final_board.won? == " "
+       return 0
+      else
+        retunr -1
+      end
+   end
+ end
 end 

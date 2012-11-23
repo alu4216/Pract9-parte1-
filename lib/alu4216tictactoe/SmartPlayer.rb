@@ -38,6 +38,8 @@ class SmartPlayer < Player
       
       # Or make a random move.
       moves[rand(moves.size)]
-    end
-  end
+    end		
+end
+
+
 end
